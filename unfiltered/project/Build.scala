@@ -22,6 +22,7 @@ object Build extends sbt.Build {
   )
 
 
+  // Change this to a project name
   lazy val admin = Project(
     id = "admin",
     base = file("."),
